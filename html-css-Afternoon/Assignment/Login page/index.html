@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./favicon.png">
+    <meta name="author" content="Sheik Abudhahir K">
+    <title>Login Page</title>
+    <style>
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin-top: 2px;
+            margin-bottom: 15px;
+            display: inline-block;
+            border: 1px solid rgb(200,200,200);
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+
+        .box{
+            margin-top: 10%;
+            background-color: #fff;
+            border: 1px solid rgb(200,200,200);
+            border-radius: 5px;
+            padding: 7%;
+            box-shadow: 1px 1px 3px 3px rgb(200, 200, 200);
+        }
+        .size{
+            width: 25%;
+            float: right;
+        }
+        .bg{
+            background-color: rgb(230, 230, 230);
+        }
+        .img{
+            width: 5%;
+            height: 6%;
+        }
+    </style>
+    </head>
+    <body class="bg">
+        <div class="Container mt-5">
+            <div class="row">
+              <div class="col-md-3">
+                
+              </div>
+              <div class="col-md-6">
+                <form>
+                    <div class="Container box">
+                        
+                        <h3 style="text-align: center;" class="mb-3"><img class="img" src="./favicon.png">ccolite Digital</h3>
+                        <label><b>Username</b></label>
+                        <input id="username" type="text" placeholder="Username or email" required>
+                        <label><b>Password</b></label>
+                        <input id="password" type="password" placeholder="Password" required>
+                        <div class="mt-3">
+                            <input id="remember" type="checkbox" checked="checked"> Remember me
+                            <button id="btn" onclick="save()" class="btn btn-primary size">Login</button>
+                        </div>
+                        
+                        
+                    </div>
+                </form>
+              </div>
+              <div class="col-md-3">
+                
+              </div>
+            </div>
+          </div>
+          <script>
+              function save(){
+                  var uname = document.getElementById("username").value;
+                  var pass = document.getElementById("password").value;
+
+                  localStorage.setItem("username",uname);
+                  sessionStorage.setItem("password",pass);
+
+                  alert(localStorage.getItem("username")+" saved in local storage");
+              }
+          </script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    </body>
+</html>
