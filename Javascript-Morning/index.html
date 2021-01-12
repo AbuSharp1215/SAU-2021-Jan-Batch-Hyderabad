@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="author" content="Sheik Abudhahir K">
+    <title>Javascript Assignment</title>
+    <style>
+        input{
+            width: 100%;
+            padding: 12px 20px;
+            margin-top: 2px;
+            margin-bottom: 15px;
+            display: inline-block;
+            border: 1px solid rgb(200,200,200);
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+
+        .box{
+            margin-top: 10%;
+            background-color: #fff;
+            border: 1px solid rgb(200,200,200);
+            border-radius: 5px;
+            padding: 7%;
+            box-shadow: 1px 1px 3px 3px rgb(200, 200, 200);
+        }
+        
+        .bg{
+            background-color: rgb(230, 230, 230);
+        }
+        
+    </style>
+    </head>
+    <body class="bg">
+        <div class="Container mt-3">
+            <div class="row">
+              <div class="col-md-3">
+                
+              </div>
+              <div class="col-md-6">
+                <form>
+                    <div class="Container box">
+                        
+                        <h3 style="text-align: center;" class="mb-3">JS Morning Session Assignment</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item"><p>Q1: Click the button to  show 'Hello world' alert</p><button class="btn btn-primary" onclick="alert('Hello World')">Click Q1</button></li>
+                            <li class="list-group-item"><p>Q2: Click the button to  show alert message and redirect to another website</p><button class="btn btn-primary" onclick="return q2()">Click Q2</button></li></a>
+                            <li class="list-group-item"><p>Q3: Add 2 numbers</p>
+                                <input id="num1" type="number" placeholder="enter input 1: " required>
+                                <input id="num2" type="number" placeholder="enter input 2: " required>
+                                <button class="btn btn-primary" onclick="return sum()">Click Q3</button><br>
+                                <input id="result" type="number" placeholder="Answer" disabled>
+                            </li>
+                        </ul>
+                        
+                        
+                    </div>
+                </form>
+              </div>
+              <div class="col-md-3">
+                
+              </div>
+            </div>
+          </div>
+
+          <script>
+              function q2(){
+                  window.alert("Thanks for visiting my site");
+                  window.location = "https://www.facebook.com/";
+                  return false;
+              }
+
+              function sum(){
+                  var num1 = document.getElementById("num1").value;
+                  var num2 = document.getElementById("num2").value;
+
+                  var sum = parseInt(num1)+parseInt(num2);
+
+                  document.getElementById("result").value = sum;
+                  return false;
+              }
+          </script>
+        
+    </body>
+</html>
