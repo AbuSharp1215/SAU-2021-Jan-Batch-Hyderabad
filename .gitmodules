@@ -1,3 +1,6 @@
 [submodule "Angular-Morning-and-Afternoon/angular-assignment"]
 	path = Angular-Morning-and-Afternoon/angular-assignment
 	url = https://github.com/AbuSharp1215/angular-assignment.git
+[submodule "ReactNative-Fullsession(1&2)/React-Native-assignment"]
+	path = ReactNative-Fullsession(1&2)/React-Native-assignment
+	url = https://github.com/AbuSharp1215/React-Native-assignment.git
