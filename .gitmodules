@@ -4,3 +4,6 @@
 [submodule "ReactNative-Fullsession(1&2)/React-Native-assignment"]
 	path = ReactNative-Fullsession(1&2)/React-Native-assignment
 	url = https://github.com/AbuSharp1215/React-Native-assignment.git
+[submodule "Reactjs-Afternoon/Reactjs-Table-Demo"]
+	path = Reactjs-Afternoon/Reactjs-Table-Demo
+	url = https://github.com/AbuSharp1215/Reactjs-Table-Demo.git
