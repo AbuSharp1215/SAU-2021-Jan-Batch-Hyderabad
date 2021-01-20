@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<assignments>
+    <assign id="1">
+        <name>Git</name>
+        <prg_lang>git</prg_lang>
+        <status>Submitted</status>
+    </assign>
+    <assign id="2">
+        <name>Javascript</name>
+        <prg_lang>js</prg_lang>
+        <status>submitted</status>
+    </assign>
+    <assign id="3">
+        <name>Angular</name>
+        <prg_lang>typescript</prg_lang>
+        <status>submitted</status>
+    </assign>
+    <assign id="4">
+        <name>Reactjs</name>
+        <prg_lang>js</prg_lang>
+        <status>submitted</status>
+    </assign>
+    <assign id="5">
+        <name>ReactNative</name>
+        <prg_lang>js</prg_lang>
+        <status>submitted</status>
+    </assign>
+    <assign id="6">
+        <name>java_basics</name>
+        <prg_lang>java</prg_lang>
+        <status>in progress</status>
+    </assign>
+    <assign id="7">
+        <name>advanced_java</name>
+        <prg_lang>java</prg_lang>
+        <status>in progress</status>
+    </assign>
+    <assign id="8">
+        <name>Maven</name>
+        <prg_lang>java</prg_lang>
+        <status>in process</status>
+    </assign>
+    <assign id="9">
+        <name>spring</name>
+        <prg_lang>java</prg_lang>
+        <status>in progress</status>
+    </assign>
+</assignments>
