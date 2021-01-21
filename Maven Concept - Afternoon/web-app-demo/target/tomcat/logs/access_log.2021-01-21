@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:22:06:57 +0530] "GET /spring5-webmvc-demo HTTP/1.1" 302 - http-bio-9000-exec-1 0
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:22:06:58 +0530] "GET /spring5-webmvc-demo/ HTTP/1.1" 200 57 http-bio-9000-exec-3 539
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:22:06:58 +0530] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9000-exec-4 0
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:22:07:13 +0530] "GET /spring5-webmvc-demo/hello HTTP/1.1" 200 14 http-bio-9000-exec-5 1
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:22:10:01 +0530] "GET /spring5-webmvc-demo/hello HTTP/1.1" 200 14 http-bio-9000-exec-7 1
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:22:14:56 +0530] "GET /tomcat-web-app HTTP/1.1" 302 - http-bio-9000-exec-1 0
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:22:14:57 +0530] "GET /tomcat-web-app/ HTTP/1.1" 200 72 http-bio-9000-exec-3 1149
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:22:15:26 +0530] "GET /tomcat-web-app/servletpage HTTP/1.1" 200 32 http-bio-9000-exec-5 2
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:22:19:00 +0530] "GET /tomcat-web-app/servletpage/ HTTP/1.1" 404 1005 http-bio-9000-exec-8 4
+0:0:0:0:0:0:0:1 - - [21/Jan/2021:22:19:04 +0530] "GET /tomcat-web-app/servletpage HTTP/1.1" 200 32 http-bio-9000-exec-1 1
