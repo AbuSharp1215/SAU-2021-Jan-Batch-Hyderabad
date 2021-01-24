@@ -2,7 +2,7 @@ package com.sharp.main;
 
 import java.io.*;
 
-public class Main {
+public class SingleThreaded {
 	public static void main(String[] args) throws IOException {
 		long start = System.currentTimeMillis();
 		File file = new File("Book.txt"); 
