@@ -8,4 +8,7 @@ public interface UserService {
 	public User getUserById(Integer id);
 	
 	public User updateUser(User user);
+	
+	public User updateEmail(User user);
+	
 }

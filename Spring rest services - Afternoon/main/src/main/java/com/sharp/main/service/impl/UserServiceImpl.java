@@ -58,19 +58,23 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public User updateUser(User user) {
+	
+		String plainPassword = user.getPassword();
+		String encryptedPassword = getEncryptedPassword(plainPassword);
 		
-		Optional<User> users = userRepository.findById(user.getId());
+		user.setPassword(encryptedPassword);
 		
-		if(users.isPresent()) {
-			String plainPassword = user.getPassword();
-			String encryptedPassword = getEncryptedPassword(plainPassword);
-			user.setPassword(encryptedPassword);
-			User savedUser = userRepository.save(user);
-			savedUser.setPassword(plainPassword);
-			return savedUser;
-		}
+		User savedUser = userRepository.save(user);
+		savedUser.setPassword(plainPassword);
 		
-		return null;
+		return savedUser;
 	}
+
+
+	@Override
+	public User updateEmail(User user) {
+		return userRepository.save(user);
+	}
+
 
 }
