@@ -7,3 +7,6 @@
 [submodule "Reactjs-Afternoon/Reactjs-Table-Demo"]
 	path = Reactjs-Afternoon/Reactjs-Table-Demo
 	url = https://github.com/AbuSharp1215/Reactjs-Table-Demo.git
+[submodule "Java Code Quality - Morning/javacodequalitytask"]
+	path = Java Code Quality - Morning/javacodequalitytask
+	url = https://github.com/AbuSharp1215/javacodequalitytask.git
